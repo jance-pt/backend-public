@@ -12,8 +12,14 @@
 ### 4. Postman
 <https://dl.pstmn.io/download/latest/win64>
 
-### 5. Git Bash
-<https://git-scm.com/install/windows>
+### 5. Git
+
+Git Bash: <https://git-scm.com/install/windows>
+- Generate your SSH key pairs in "C:\Users\Username\.ssh"
+```
+ssh-keygen -t ed25519
+```
+- Add your ssh public key : <https://github.com/settings/keys>
 
 ### 6. Docker
 <https://www.docker.com/products/docker-desktop/>
