@@ -3,9 +3,20 @@
 ### 1. Visual Studio Code
 <https://code.visualstudio.com/>
 
+extensions:
+- Git lens - Git supercharged
+
+
 ### 2. Mongo DB
 version: 7.0.31
 <https://www.mongodb.com/try/download/community>
+
+```bash
+mongod --version
+```
+*If `mongod` command not found, could be environment variable not created yet. Check in:  
+View advanced system settings > Environment Variable > Path  
+Make sure bin path `C:\Program Files\MongoDB\Server\7.0\bin` is added.*
 
 Install MongoDB Compass
 <https://www.mongodb.com/try/download/compass>
