@@ -27,6 +27,8 @@ Install MongoDB Command Line Database Tools
 ### 3. Redis Insight
 <https://redis.io/insight/>
 
+*install redis through docker.
+
 ### 4. Postman
 <https://dl.pstmn.io/download/latest/win64>
 
@@ -128,6 +130,10 @@ Install MongoDB Compass
 
 ### 6. Redis Insight
 <https://redis.io/insight/>
+
+```bash
+brew install redis
+```
 
 ### 7. Postman
 - for arm64
